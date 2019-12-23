@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
-@import url(//db.onlinewebfonts.com/c/6f0607d5cef611ac79ee8b28f5c75b1b?family=Birch+Std);
+@import "https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap";
+
 
 
 /*
@@ -2687,7 +2688,8 @@
 
 		#header .logo {
 			color: #e53d33;
-			font-family: "Pacifico", cursive;
+			font-family: 'Pinyon Script', cursive;
+			font-weight: bold;
 			font-size: 2.5em;
 			letter-spacing: 2px;
 			margin-top: -5px;
