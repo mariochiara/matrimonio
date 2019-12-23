@@ -2,7 +2,7 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
 @import "https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap";
-
+@import "https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap";
 
 
 /*
@@ -1690,7 +1690,8 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #727a82;
 		font-weight: 700;
-		font-family: "Montserrat", sans-serif;
+		/* font-family: "Montserrat", sans-serif; */
+		font-family: 'Libre Baskerville', serif;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 	}
@@ -2407,6 +2408,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Montserrat", sans-serif;
+		/* font-family: 'Libre Baskerville', serif; */
 		height: 3.5em;
 		line-height: 3.5em;
 		padding: 0 3.5em;
@@ -2948,9 +2950,8 @@
 			padding: 0;
 		}
 
-		#banner p {
-			font-size: 1.25em;
-			margin-bottom: 1.75em;
+		#banner h3 {
+			font-family: "Montserrat", sans-serif;
 		}
 
 		@media screen and (max-width: 1280px) {
