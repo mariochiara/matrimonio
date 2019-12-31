@@ -2601,6 +2601,10 @@
 				text-align: right;
 			}
 
+			.flex.centered-titles .flex-item {
+				text-align: center;
+			}
+
 		@media screen and (max-width: 980px) {
 
 			.flex {
@@ -2621,6 +2625,10 @@
 
 					.flex.flex-3 .flex-item.left {
 						text-align: right;
+					}
+
+					.flex.centered-titles .flex-item {
+						text-align: center;
 					}
 
 		}
